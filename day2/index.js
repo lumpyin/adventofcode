@@ -1,6 +1,6 @@
-//const { data } = require('./data1');
-const { data } = require('./data2');
-//console.log(data);
+const { data1 } = require('./data');
+const { data2 } = require('./data');
+
 
 function part1(data){
   let x = 0;
@@ -20,7 +20,7 @@ function part1(data){
   return x * y;
 }
 
-//const result = part1(data);
+
 
 function part2(data){
   let x = 0;
@@ -42,6 +42,6 @@ function part2(data){
   return x * y;
 }
 
-const result = part2(data);
+const result = part2(data2);
 console.log(result);
 
